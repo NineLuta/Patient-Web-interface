@@ -4,7 +4,7 @@ run-name: Deploy Patient Web by ${{ github.actor }} and Event is ${{ github.even
 on:
   push:
     branches:
-      - main  # change to 'master' if that's your default branch
+      - master # change to 'master' if that's your default branch
 
 jobs:
   CI-Backend:
